@@ -51,7 +51,7 @@ h1{
 }
 .hero article{
     position: absolute;
-    top: 10px;
+    top: 85px;
     padding: 10px;
     text-align: left;
     background-color: var(--accent1-color);
@@ -60,5 +60,31 @@ h1{
 .hero article img{
     float: right;
     width: 125px;
+
+}
+header{
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    align-items: center;
+
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+}
+figure{
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    
+}
+figure img{
+    width: 100px;
+    height: auto;
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
 
 }
